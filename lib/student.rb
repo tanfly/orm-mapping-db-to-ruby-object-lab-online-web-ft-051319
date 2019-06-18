@@ -66,7 +66,7 @@ class Student
       end.first 
     end 
 
-    
+  
 
   
   
