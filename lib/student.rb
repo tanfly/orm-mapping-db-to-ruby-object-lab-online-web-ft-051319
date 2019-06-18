@@ -53,6 +53,8 @@ class Student
     new_student.length = row[2]
     new_student
   end
+  
+  
 
   
   
