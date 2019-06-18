@@ -116,5 +116,7 @@ class Student
         end.first 
       end 
       
+      def self.all_students_in_grade_x(grade)
+      
   
 end
