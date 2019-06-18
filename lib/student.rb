@@ -52,19 +52,6 @@ class Student
     end
   end
   
-  def self.1.  def self.find_by_name(name)
-2.     sql = <<-SQL
-3.       SELECT *
-4.       FROM songs
-5.       WHERE name = ?
-6.       LIMIT 1
-     SQL
-8.  
-9.     DB[:conn].execute(sql, name).map do |row|
-10.       self.new_from_db(row)
-11.     end.first
-12.   end
-13. end
 
   def self.find_by_name(name)
     sql = <<-SQL 
