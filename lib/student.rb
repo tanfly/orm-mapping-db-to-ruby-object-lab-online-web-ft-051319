@@ -104,5 +104,7 @@ class Student
       end 
     
       def self.first_student_in_grade_ten
+        
+      end
   
 end
